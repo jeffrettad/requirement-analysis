@@ -86,4 +86,55 @@ Reduces errors by ensuring that the team is building the right system.
 Helps to gain stakeholder buy-in by confirming that their needs have been correctly understood and documented.
 Ensures that all requirements are achievable and feasible, preventing costly changes during the design and development phases.
 # Types of Requirements
+ Functional Requirements
+ Functional requirements define the specific behaviors and functions of the system. For the hotel booking application, these include:
+1. Hotel Management Service:
+Hotel Information Management: Hotel managers can add, update, or delete hotel details such as name, location, amenities, and room types.
+Room Inventory Management: Manage room availability, pricing, and booking status.
+Data Synchronization: Updates to hotel data are propagated to the Content Delivery Network (CDN) and messaging queues for real-time availability. 
+
+2. Customer Service (Search & Booking):
+Hotel Search: Customers can search for hotels based on location, availability, price, and other filters.
+Booking Process: Customers can select rooms, provide booking details, and confirm reservations.
+Payment Integration: Integration with third-party payment gateways to process transactions securely. 
+
+3. View Booking Service:
+Booking History: Users can view current and past bookings.
+Booking Details: Access to detailed information about each booking, including dates, room types, and payment status. 
+
+4. Notification Service:
+Real-Time Notifications: Send notifications to customers and hotel managers about booking confirmations, cancellations, or updates.
+Promotional Messages: Inform users about special offers or discounts. 
+
+5. Data Archival and Analytics:
+Data Archiving: Older booking data is archived using Cassandra to manage database size and performance.
+Analytics: Utilize archived data for business analysis, customer segmentation, and performance metrics.
+  Non-Functional Requirements
+
+Non-functional requirements define the system's operational attributes and constraints:
+1. Performance:
+Low Latency: Ensure quick response times for user interactions, such as searches and bookings.
+High Throughput: Capable of handling a large number of concurrent users and transactions. 
+
+2. Scalability:
+Horizontal Scaling: System architecture supports adding more servers to handle increased load.
+Microservices Architecture: Dividing the application into independent services for better scalability and maintenance. 
+
+3. Availability and Reliability:
+High Availability: System is designed to be operational 24/7 with minimal downtime.
+Fault Tolerance: Ability to handle failures gracefully without affecting the overall system performance. 
+
+4. Consistency:
+Data Consistency: Ensuring that all users have access to the most recent and accurate data, especially for room availability and bookings. 
+
+5. Security:
+Secure Transactions: Implementing secure protocols for data transmission and payment processing.
+Authentication and Authorization: Ensuring that only authorized users can access specific functionalities. 
+
+6. Maintainability and Extensibility:
+Modular Design: The system is designed in modules, making it easier to update or add new features.
+Documentation: Comprehensive documentation to assist in system maintenance and onboarding new developers. 
+
+
+# Use Case Diagrams
 - 
