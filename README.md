@@ -166,3 +166,17 @@ System Admin:
 Manage Users
 Archive Data
 ![_alx-booking-uc](https://github.com/user-attachments/assets/56d396c6-f478-4f61-a2a0-d03eadbeb2dd)
+# Acceptance Criteria
+Acceptance Criteria are a set of predefined requirements that a system or feature must meet to be accepted by users, stakeholders, or product owners. 
+
+Example: Acceptance Criteria for the Checkout Feature
+User Story:
+As a customer, I want to checkout after selecting my hotel booking so that I can complete my reservation and receive a confirmation.
+
+Acceptance Criteria:
+1. Payment Option Visibility: The system must display available payment options (debit card, PayPal, etc.) during checkout.
+2. Valid Payment Processing: The user must be able to enter valid payment details and complete the transaction.
+3. Invalid Payment Handling: If payment fails, the system must show an error and not confirm the booking.
+4. Confirmation Generation: Upon successful payment, the system must generate and display a booking confirmation message.
+5. Email Notification: A confirmation email must be sent to the customer with booking details after checkout.
+6. Booking Record Update: The booking record must be saved in the database with a status of "Confirmed".
