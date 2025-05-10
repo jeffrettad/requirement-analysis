@@ -165,8 +165,8 @@ Process Payment
 System Admin:
 Manage Users
 Archive Data
-# alx-booking-uc.png
-![_alx-booking-uc.png](https://github.com/user-attachments/assets/56d396c6-f478-4f61-a2a0-d03eadbeb2dd)
+# Use Case Diagram for Booking Management System
+![_alx-booking-uc.png]
 # Acceptance Criteria
 Acceptance Criteria are a set of predefined requirements that a system or feature must meet to be accepted by users, stakeholders, or product owners. 
 
