@@ -137,4 +137,32 @@ Documentation: Comprehensive documentation to assist in system maintenance and o
 
 
 # Use Case Diagrams
-- 
+- Use Case Diagram for the Hotel Booking System
+Actors:
+1. Customer
+2. Hotel Manager
+3. Payment Gateway
+4. System Admin
+
+Use Cases:
+
+Customer:
+Search Hotels
+View Hotel Details
+Make Booking
+View Booking History
+Cancel Booking
+Make Payment
+
+Hotel Manager:
+Add/Update Hotel Info
+Manage Room Inventory
+View Booking Reports
+
+Payment Gateway:
+Process Payment
+
+System Admin:
+Manage Users
+Archive Data
+![_alx-booking-uc](https://github.com/user-attachments/assets/56d396c6-f478-4f61-a2a0-d03eadbeb2dd)
