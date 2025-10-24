@@ -163,10 +163,8 @@ Process Payment
 System Admin:
 Manage Users
 Archive Data
-# Use Case Diagram for Booking Management System
 
-
-
+![Logo](/lalx-booking-uc.png)
 
 # Acceptance Criteria
 Acceptance Criteria are a set of predefined requirements that a system or feature must meet to be accepted by users, stakeholders, or product owners. 
