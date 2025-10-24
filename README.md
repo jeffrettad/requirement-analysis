@@ -164,7 +164,7 @@ System Admin:
 Manage Users
 Archive Data
 
-![Logo](/lalx-booking-uc.png)
+![Use Case Diagram](./alx-booking-uc.png)
 
 # Acceptance Criteria
 Acceptance Criteria are a set of predefined requirements that a system or feature must meet to be accepted by users, stakeholders, or product owners. 
